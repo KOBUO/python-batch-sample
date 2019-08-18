@@ -12,4 +12,4 @@ WORKDIR /var/www/html
 
 RUN pip install --upgrade pip
 RUN pip install pipenv
-RUN pipenv install --system
+RUN pipenv install --dev --system
