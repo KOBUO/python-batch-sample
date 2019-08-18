@@ -1,0 +1,3 @@
+CREATE DATABASE TestDB
+SELECT Name FROM sys.Databases
+go
